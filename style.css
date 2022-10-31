@@ -106,15 +106,15 @@ body{
 background-color:#f5ebe0;
 }
 .parte1{
-    background-color: #edf2f4;
+    background-color: none;
     width: 100%;
-    height: 915px;
-    border-bottom:3px solid #2b2d42;
+    height: 100%;
+    padding: 50px;
 }
 .parte2{
   background-color: #edf2f4;
   width: 600px;
-  height: 965px;
+  height: 1325px;
   margin-top: 40px;
   border-radius: 10px;
   margin-left: 40%;
@@ -149,7 +149,20 @@ background-color:#f5ebe0;
       max-height: 800px;
       border-bottom-left-radius: 15px;
       border-bottom-right-radius: 15px;
+      
   }
+  .item {
+    max-width: 345px;}
+    .parte2{
+      background-color: #edf2f4;
+      width: 600px;
+      height: 965px;
+      margin-top: 40px;
+      border-radius: 10px;
+      margin-left: 50%;
+      transform: translate(-50%);
+      padding: 20px;
+    }
   }
   @media screen and (max-width:450px) {
     .Slides{
@@ -160,4 +173,54 @@ background-color:#f5ebe0;
       border-bottom-left-radius: 15px;
       border-bottom-right-radius: 15px;
   }
+  .item {
+    max-width: 345px;}
+    .parte2{
+      background-color: #edf2f4;
+      width: 600px;
+      height: 965px;
+      margin-top: 40px;
+      border-radius: 10px;
+      margin-left: 0%;
+      transform: translate(0%);
+      padding: 20px;
+    }
+  }
+  .footer{
+    margin-left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+    margin-top: 60px;
+    padding: 0px;
+
+  }
+  .parte3{
+    margin-top: -1320px;
+    margin-left: 65%;
+    transform: translate(-35%);
+    width:25%;
+    height: auto;
+    background-color: none;
+    padding: 20px;
+    background-color: #edf2f4;
+    border-radius: 10px;
+  }
+  .parte3 .card{
+    margin-left: 50%;
+    transform: translate(-50%);
+  }
+  .parte4{
+    margin-left: 65%;
+    transform: translate(-35%);
+    width: 25%;
+    margin-top: 02%;
+    padding: 20px;
+    background-color: #edf2f4;
+    border-radius: 10px;
+  }
+  .parte4 .card{
+    height: 400px;
+    
+  }
+  .parte4 .card img{
   }
