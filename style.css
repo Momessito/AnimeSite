@@ -141,6 +141,9 @@ background-color:#f5ebe0;
   .item img{
     margin-top: 10px;
   }
+
+
+
   @media screen and (max-width:1024px) {
     .Slides{
       width: 80%;
@@ -196,7 +199,7 @@ background-color:#f5ebe0;
   }
   .parte3{
     margin-top: -1320px;
-    margin-left: 65%;
+    margin-left: 75%;
     transform: translate(-35%);
     width:25%;
     height: auto;
@@ -210,7 +213,7 @@ background-color:#f5ebe0;
     transform: translate(-50%);
   }
   .parte4{
-    margin-left: 65%;
+    margin-left: 75%;
     transform: translate(-35%);
     width: 25%;
     margin-top: 02%;
@@ -220,7 +223,26 @@ background-color:#f5ebe0;
   }
   .parte4 .card{
     height: 400px;
-    
   }
-  .parte4 .card img{
+  @media screen and (min-width: 1600px){
+    .parte3{
+      margin-top: -1320px;
+      margin-left: 65%;
+      transform: translate(-35%);
+      width:25%;
+      height: auto;
+      background-color: none;
+      padding: 20px;
+      background-color: #edf2f4;
+      border-radius: 10px;
+    }
+    .parte4{
+      margin-left: 65%;
+      transform: translate(-35%);
+      width: 25%;
+      margin-top: 02%;
+      padding: 20px;
+      background-color: #edf2f4;
+      border-radius: 10px;
+    }
   }
