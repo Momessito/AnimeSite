@@ -1,0 +1,49 @@
+ 
+<div class="parte2 top-0 start-50" data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true"
+  class="scrollspy-example" tabindex="0" id="list-item-1">
+  <h2>Ultimos Capitulos</h2>
+  {{#each recents}}
+  <div class="card mb-3 item" style=" background-color: #2b2d422c;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="{{this.image}}" class="card-img" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">{{this.name}} <span class="badge bg-info">Capitulo {{this.chapters_count}}.</span></h5>
+          <p class="card-text">{{this.author}}</p>
+          <p class="card-text"><small class="text-muted">Nota: {{this.score}}</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{/each}}
+</div>
+
+<div class="parte4 position-absolute top-100">
+  <h1>Os mais lidos</h1>
+  {{#each popular}}
+  <div class="card2">
+
+    <h1><img class="" src="{{this.image}}">{{this.name}}</h1>
+  </div>
+  {{/each}}
+</div>
+
+<div class="card text-center footer position-absolute top-100 translate-middle"
+  style=" background-color:#2b2d422c;border-radius: 0px;">
+  <div class="card">
+    <div class="card-body" style=" background-color:#2b2d422c;">
+      <h5 class="card-title">Mangas Super</h5>
+      <p class="card-text">Nos siga nas redes sociais.</p>
+    </div>
+    <div class="card-footer text-muted" style=" background-color:#2b2d422c;">
+      Copyright 2022
+    </div>
+  </div>
+  <div class="ocean">
+    <div class="wave"></div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+  </div>
+</div>

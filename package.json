@@ -1,0 +1,22 @@
+{
+  "name": "project-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js localhost 3000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "got": "^11.8.0"
+  }
+}
